@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap");
+
+.body {
+  text-align: center;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.body .header {
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+
+.body .header .title {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  color: #2491dd;
+}
+.body .header .sub-title {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #294378;
+}
+
+.content {
+  display: flex;
+}
+
+.content .item-box {
+  width: 354px;
+  min-height: 380px;
+  background: #ffffff;
+  box-shadow: 0px 7px 30px 13px rgba(229, 233, 246, 0.5);
+  border-radius: 20px;
+  margin-left: 32px;
+  position: relative;
+}
+
+.content .item-box .container-box {
+  padding: 40px 25px 0 25px;
+}
+
+.content .item-box .box-footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.content .container-box img {
+  width: 120px;
+  height: 120px;
+}
+
+.content .container-box .content-title {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19204a;
+  margin-bottom: 12px;
+}
+.content .container-box .content-subTitle {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #19204a;
+}
+
+.date-time {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #19204a;
+}
+
+.icon img {
+  position: absolute;
+  width: 393px;
+  height: 331.98px;
+  left: -7px;
+  top: 0px;
+  z-index: -9;
+}
